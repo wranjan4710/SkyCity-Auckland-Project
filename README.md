@@ -1,169 +1,29 @@
 # 📊 SkyCity Channel Intelligence Dashboard
 
-A Streamlit-based analytics dashboard built for SkyCity Auckland Restaurants & Bars to analyze restaurant performance, delivery channels, market share, and dependency risks.
+## About This Project
 
----
+I created this project to analyze restaurant performance across different delivery channels like Uber Eats, DoorDash, Self Delivery, and In-Store orders.
 
-## 🚀 Project Overview
+The main goal of this dashboard is to understand which channels perform better, which restaurant categories are more dependent on aggregators, and how business risks can be identified using data analytics.
 
-The SkyCity Channel Intelligence Dashboard helps restaurant businesses understand customer ordering patterns across multiple channels such as In-Store, Uber Eats, DoorDash, and Self Delivery.
+## What I Learned
 
-This project provides interactive visualizations, KPI tracking, and risk analysis to support better business decisions.
+- Building multi-page Streamlit dashboards
+- Using Plotly for data visualization
+- Working with filters and KPIs
+- Performing business risk analysis
+- Organizing Python files into modules
 
----
+## Challenges Faced
 
-## ✨ Features
+- Handling multiple dashboard pages
+- Managing session state between pages
+- Fixing data loading errors
+- Creating meaningful business KPIs
+- Solving module import issues
 
-* Interactive Streamlit Dashboard
-* Global Filters for Subregion, Cuisine Type, and Business Segment
-* Channel Market Share Analysis
-* Delivery vs In-Store Comparison
-* Net Profit Analysis by Channel
-* Subregion-wise Channel Dominance
-* Cuisine and Segment Insights
-* Aggregator Dependency Risk Analysis
-* High-Risk Restaurant Identification
-* Executive KPI Summary
-* Interactive Charts and Graphs
-* Filtered Dataset Preview
+## Author
 
----
+Dablu Ranjan  
+AI & ML Student  
 
-## 🛠️ Technologies Used
-
-* Python
-* Streamlit
-* Pandas
-* NumPy
-* Plotly
-* Matplotlib
-* Seaborn
-
----
-
-## 📂 Project Structure
-
-```text
-SkyCity_Channel_Intelligence/
-│
-├── app.py
-├── requirements.txt
-├── data/
-│   └── SkyCity Auckland Restaurants & Bars.csv
-│
-├── utils/
-│   ├── data_loader.py
-│   ├── kpi_calculator.py
-│   └── validation.py
-│
-├── pages/
-│   ├── 1_Channel_Overview.py
-│   ├── 2_Subregion_Analysis.py
-│   ├── 3_Cuisine_Segment_Analysis.py
-│   └── 4_Dependency_Risk_Analysis.py
-```
-
----
-
-## 📊 Dashboard Pages
-
-### 1. Main Dashboard
-
-* Executive KPI Summary
-* Channel Share Metrics
-* Orders Breakdown
-* Dependency & Diversification Insights
-* Dataset Preview
-
-### 2. Channel Overview
-
-* Channel Market Share
-* Delivery vs In-Store Orders
-* Net Profit by Channel
-
-### 3. Subregion Analysis
-
-* Regional Channel Dominance
-* Heatmap Analysis by Subregion
-
-### 4. Cuisine & Segment Analysis
-
-* Delivery Usage by Cuisine
-* Business Segment Channel Mix
-
-### 5. Dependency Risk Analysis
-
-* Diversification Score Distribution
-* Risk Category Classification
-* High-Risk Restaurant Table
-
----
-
-## 📈 Key Insights
-
-* Identify the most popular ordering channel
-* Compare online delivery platforms with in-store performance
-* Understand which subregions depend more on delivery platforms
-* Discover cuisine types with the highest delivery demand
-* Detect restaurants with high aggregator dependency risk
-* Measure diversification across channels
-
----
-
-## ⚙️ Installation Guide
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/skycity-channel-intelligence.git
-```
-
-2. Move into the project folder
-
-```bash
-cd skycity-channel-intelligence
-```
-
-3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the Streamlit application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📋 Requirements
-
-```text
-streamlit
-pandas
-numpy
-plotly
-matplotlib
-seaborn
-```
-
----
-
-## 🔮 Future Improvements
-
-* Add Machine Learning Forecasting
-* Add PDF Report Export
-* Add Revenue Prediction
-* Add Restaurant Ranking System
-* Add Dark Mode
-* Deploy on Streamlit Cloud
-* Add Real-Time API Integration
-
----
-
-## 👨‍💻 Author
-
-Dablu Ranjan
-AI & ML Student
